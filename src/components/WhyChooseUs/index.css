@@ -1,0 +1,74 @@
+.why-choose-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.unordered-choose-us{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.each-choose-us-item{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+    gap: 3px;
+    width: 25%;
+    height: 300px;
+}
+
+.each-choose-us-image{
+    width: 70px;
+    height: 70px;
+}
+.why-choose-us-heading{
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 35px;
+}
+.border-line{
+    width: 80px;
+    font-weight: bold;
+    border: 2px solid darkblue;
+}
+.each-choose-us-title{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50, 17, 122);
+    margin-top: 10px;
+}
+
+.each-choose-us-description{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    flex: 1 1 0%;
+    padding: 20px 12px;
+   
+   
+}
+
+@media (max-width:768px){
+    .unordered-choose-us{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+    }
+    .each-choose-us-item{
+        width: 100%;
+        padding: 20px 10px 10px 10px;
+    }
+}

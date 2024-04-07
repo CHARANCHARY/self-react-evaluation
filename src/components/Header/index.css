@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+    background-color: #290970;
+    padding: 15px 0;
+    width: 100%;
+    box-shadow: 0px   0px #bfbfbf;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Brand */
+  .brand {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Navbar toggle styles (for mobile) */
+  .navbar-toggle {
+    display: none;
+  }
+  
+  .navbar-toggle-label {
+    cursor: pointer;
+    display: block;
+  }
+  
+  .navbar-toggle-label span {
+    background-color: #333;
+    display: block;
+    height: 2px;
+    width: 25px;
+    margin-bottom: 5px;
+  }
+  
+  /* Navbar menu */
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navbar item */
+  .navbar-item {
+    margin-right: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Show dropdown menu on hover */
+  .navbar-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Dropdown item */
+  .dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #32127a;
+  }
+  
+  /* Navbar link */
+  .nav-link {
+    text-decoration: none;
+    
+  }
+
+  .button-container{
+    background-color: #f8f9fa;
+    color:#000;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  .hamburger-icon{
+    color: #fff;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-right: 3px;
+  }
+
+  .login-image{
+    height: 20px;
+    width: 20px;
+    margin-right: 1px;
+  }
+  
+  /* Adjusting styles for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 55px;
+      left: 0;
+      right: 0;
+      background-color: #f8f9fa;
+    }
+  
+    .navbar-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-toggle {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navbar-toggle:checked + .navbar-menu {
+      display: flex;
+    }
+  
+    .navbar-toggle-label span {
+      width: 20px;
+    }
+    .hamburger-icon{
+      margin-right: 1px;
+    }
+  }
+  

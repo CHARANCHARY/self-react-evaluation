@@ -1,0 +1,23 @@
+.kick-off-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add-styles{
+    font-weight: bold;
+}
+
+.add-button-style{
+    margin-left: 0px;
+}
+
+@media (max-width:768px){
+    .kick-off-container{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
