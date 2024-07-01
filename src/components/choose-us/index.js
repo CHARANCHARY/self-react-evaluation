@@ -6,7 +6,6 @@ const WhyChooseUs = ()=>{
   return(
     <div className="why-choose-us-container">
         <h1 className="why-choose-us-heading">Why Choose Us</h1>
-        <hr className="border-line"/>
         <ul className="unordered-choose-us">
             {chooseUsData.map(eachItem=>(
                 <li className="each-choose-us-item">

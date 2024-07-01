@@ -3,13 +3,14 @@
     align-items: center;
     list-style: none;
     width: 100%;
+    justify-content: center;
     margin-top: 20px;
 }
 .each-eligblity-item{
-    width: 25%;
+    width: 20%;
     border-radius: 5px;
     border-top: 2px solid rgb(50, 17, 122);
-    margin: 5px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;

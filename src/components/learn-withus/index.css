@@ -12,7 +12,7 @@
     margin: 10px;
     gap: 3px;
     width: 30%;
-    height: 71vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
    
@@ -40,8 +40,8 @@
 
 .each-learn-list-item{
     margin: 0px;
-    font-family: "Nunito Sans";
-    font-weight: 400;
+    text-align: left;
+    font-weight: 500;
     font-size: 15px;
     margin-top: 5px;
     

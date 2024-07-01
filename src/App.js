@@ -1,10 +1,10 @@
-import Header from './components/Header';
-import BecomeACCA from './components/BecomeACCA';
-import Eligblity from "./components/Eligblity"
-import WhyChooseUs from './components/WhyChooseUs';
-import LearnInACCA from "./components/LearnInACCA"
-import PlacementAssistance from "./components/PlacementAssistance"
-import AccaPrep from "./components/AccaPrep"
+import Header from './components/navbar';
+import ACCSsection from './components/acca-top-section';
+import Eligblity from "./components/know-your-eligible"
+import WhyChooseUs from './components/choose-us';
+import LearnWithUs from "./components/learn-withus";
+import Placements from "./components/placement-section";
+import Preapre from "./components/prepare" ;  
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,12 +12,12 @@ const App = ()=>{
   return (
     <div className="App">
       <Header/>
-      <BecomeACCA/>
+      <ACCSsection/>
       <WhyChooseUs/>
       <Eligblity/>
-      <LearnInACCA/>
-      <PlacementAssistance/>
-      <AccaPrep/>
+      <LearnWithUs/>
+      <Placements/>
+      <Preapre/>
       
     </div>
   );

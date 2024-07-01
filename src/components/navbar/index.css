@@ -6,6 +6,8 @@
     padding: 15px 0;
     width: 100%;
     box-shadow: 0px   0px #bfbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
   }
   
   .container {
@@ -17,9 +19,10 @@
   /* Brand */
   .brand {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     text-decoration: none;
+    font-weight: 200;
   }
   
   /* Navbar toggle styles (for mobile) */
@@ -51,9 +54,8 @@
   .navbar-item {
     margin-right: 20px;
     color: #ffffff;
-    font-family: "Roboto";
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 100;
   }
   
   /* Dropdown menu */
@@ -81,6 +83,8 @@
   /* Navbar link */
   .nav-link {
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
     
   }
 
@@ -89,22 +93,23 @@
     color:#000;
     border: none;
     width: 140px;
-    height: 40px;
-    font-size: 15px;
+    height: 30px;
+    font-size: 12px;
     font-weight: bold;
     border-radius: 4px;
   }
   .hamburger-icon{
     color: #fff;
-    background-color: #f8f9fa;
     border-radius: 4px;
     margin-right: 3px;
+    font-size: 20px;
   }
 
   .login-image{
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     margin-right: 1px;
+    margin-top: -4px;
   }
   
   /* Adjusting styles for smaller screens */

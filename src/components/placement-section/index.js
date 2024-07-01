@@ -1,6 +1,6 @@
 import "./index.css"
 
-const PlacementAssistance = ()=>{
+const Placements = ()=>{
    return(
     <div className="placement-container">
        <h1 className="placement-main-heading">100% Placement Assistance</h1>
@@ -15,4 +15,4 @@ const PlacementAssistance = ()=>{
    )
 }
 
-export default PlacementAssistance
+export default Placements

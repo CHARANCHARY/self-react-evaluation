@@ -2,11 +2,10 @@ import {learnData1,learnData2,learnData3}  from "../../jsonData"
 import "./index.css"
 
 
-const LearnInACCA = ()=>{
+const LearnWithUs = ()=>{
   return(
     <div className="why-choose-us-container">
         <h1 className="why-choose-us-heading">What will you Learn in ACCA?</h1>
-        <hr className="border-line"/>
         <div className="learn-acca-container">
             <div className="each-learn-acc-item">
                 <div className="learn-acc-heading-container">
@@ -65,4 +64,4 @@ const LearnInACCA = ()=>{
 
 
 
-export default LearnInACCA
+export default LearnWithUs
